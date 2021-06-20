@@ -32,9 +32,9 @@ int main() {
   exemplo3.V1 = 12;
 
   exemplo3.imprime(); 
-  cout << "Corrente total: "<<exemplo2.calculaResistenciaEmParalelo() << " A." << endl;
+  cout << "Corrente total: "<<exemplo3.calculaCorrenteTotal() << " A." << endl;
 
-  cout << "Potência total: "<<exemplo2.calculaPotencia() << " W." << endl;
+  cout << "Potência total: "<<exemplo3.calculaPotencia() << " W." << endl;
 
  
 
